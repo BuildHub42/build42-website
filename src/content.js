@@ -24,7 +24,7 @@ window.SITE_CONTENT = {
       text: "We apply the discipline of enterprise engineering to the agility of early-stage ventures. We do not just launch; we follow through.",
       items: [
         ["Validation & Diligence", "We stress-test business models to confirm technical feasibility before capital is deployed."],
-        ["Accelerated Market Entry", "We connect ventures directly with decision-makers in the US and Europe."],
+        ["Accelerated Market Entry", "We connect ventures directly with decision-makers in the U.S. and Europe."],
         ["Operational Architecture", "We build startups with the governance, compliance, and structure required for long-term scale."]
       ]
     },
@@ -41,8 +41,8 @@ window.SITE_CONTENT = {
     }
   ],
   about: [
-    "Build42 is a venture accelerator and advisory platform specializing in data, AI, agentic systems, and enterprise applications. Headquartered at the Florida Space Coast, with a strategic hub in Paris, France, we help technology startups scale, governments and businesses adopt advanced AI and data strategies, and organizations leverage global development capabilities.",
+    "Build42 is a venture accelerator and advisory platform specializing in data, AI, agentic systems, and enterprise applications. Headquartered on Florida's Space Coast, with a strategic hub in Paris, France, we help technology startups scale, support governments and businesses as they adopt advanced AI and data strategies, and help organizations leverage global development capabilities.",
     "Founded by senior executives with leadership experience at Oracle, SAP, SAS, General Electric, and Deutsche Telekom, Build42 empowers founders, policymakers, and corporate leaders with operator-led guidance, U.S. market access, and execution support through strategic global relationships.",
-    "At the heart of Build42 is a collaborative ecosystem where startups, investors, corporates, and governments help each other succeed."
+    "At the heart of Build42 is a collaborative ecosystem where startups, investors, corporations, and governments help each other succeed."
   ]
 };
