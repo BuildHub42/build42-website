@@ -37,35 +37,6 @@ function renderAbout() {
   target.innerHTML = content.about.map((paragraph) => `<p>${paragraph}</p>`).join("");
 }
 
-function setupContactForm() {
-  const form = document.querySelector('.contact-form');
-  if (!form) return;
-
-  form.addEventListener('submit', (event) => {
-    event.preventDefault();
-
-    const data = new FormData(form);
-    const firstName = data.get('First name') || '';
-    const lastName = data.get('Last name') || '';
-    const organization = data.get('Organization') || '';
-    const message = data.get('Message') || '';
-    const senderName = `${firstName} ${lastName}`.trim();
-
-    const body = [
-      senderName && `Name: ${senderName}`,
-      organization && `Organization / Venture: ${organization}`,
-      '',
-      message
-    ].filter((line) => line !== false).join('\n');
-
-    const mailto = new URL('mailto:hello@build42.com');
-    mailto.searchParams.set('subject', 'Build42 inquiry');
-    mailto.searchParams.set('body', body);
-    window.location.href = mailto.toString();
-  });
-}
-
 renderServices();
 renderTracks();
 renderAbout();
-setupContactForm();

@@ -443,6 +443,10 @@ textarea {
   font: inherit;
 }
 
+.honeypot {
+  display: none;
+}
+
 textarea {
   resize: vertical;
 }
@@ -465,6 +469,34 @@ textarea {
   padding: 30px 6vw;
   border-top: 1px solid var(--line);
   background: #020617;
+}
+
+.thanks-page {
+  min-height: 100vh;
+  display: grid;
+  align-content: center;
+  gap: 36px;
+  padding: 48px 6vw;
+}
+
+.thanks-panel {
+  max-width: 760px;
+}
+
+.thanks-panel h1 {
+  margin-bottom: 22px;
+}
+
+.thanks-panel p:not(.eyebrow) {
+  max-width: 620px;
+  margin: 0 0 28px;
+  color: var(--soft);
+  font-size: 1.15rem;
+}
+
+.thanks-panel a:not(.button) {
+  color: var(--primary-400);
+  font-weight: 700;
 }
 
 @media (max-width: 860px) {

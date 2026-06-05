@@ -129,14 +129,22 @@
             <h2>The first step is a conversation</h2>
             <p>Whether you are seeking acceleration for a new concept or strategic transformation for an existing enterprise, Build42 can help structure the path forward.</p>
           </div>
-          <form class="contact-form">
+          <form class="contact-form" action="https://formsubmit.co/hello@build42.com" method="POST">
+            <input type="hidden" name="_subject" value="New Build42 inquiry">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="https://build42.com/thanks.html">
+            <input type="text" name="_honey" class="honeypot" tabindex="-1" autocomplete="off">
             <label>
               First name
-              <input name="First name" autocomplete="given-name">
+              <input name="First name" autocomplete="given-name" required>
             </label>
             <label>
               Last name
-              <input name="Last name" autocomplete="family-name">
+              <input name="Last name" autocomplete="family-name" required>
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" autocomplete="email" required>
             </label>
             <label>
               Organization / Venture
@@ -144,7 +152,7 @@
             </label>
             <label>
               Message
-              <textarea name="Message" rows="5"></textarea>
+              <textarea name="Message" rows="5" required></textarea>
             </label>
             <button class="button primary" type="submit">Initiate Request</button>
             <p class="form-note">Prefer direct email? <a href="mailto:hello@build42.com">hello@build42.com</a></p>
