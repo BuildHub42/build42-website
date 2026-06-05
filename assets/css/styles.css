@@ -195,8 +195,13 @@ h3 {
 }
 
 h1 {
-  max-width: 1080px;
-  font-size: clamp(4rem, 9vw, 7.4rem);
+  max-width: 920px;
+  font-size: clamp(3.35rem, 7vw, 5.8rem);
+}
+
+.title-line {
+  display: block;
+  white-space: nowrap;
 }
 
 h2 {
@@ -210,8 +215,9 @@ h3 {
 .hero-subtitle {
   margin: 16px 0 0;
   color: var(--soft);
-  font-size: clamp(1.3rem, 3vw, 2.2rem);
+  font-size: clamp(1.15rem, 2vw, 1.65rem);
   font-weight: 700;
+  white-space: nowrap;
 }
 
 .hero-copy {
@@ -505,10 +511,14 @@ textarea {
   }
 
   h1 {
-    font-size: 3.4rem;
+    font-size: 2.35rem;
   }
 
   .button {
     width: 100%;
+  }
+
+  .hero-subtitle {
+    white-space: normal;
   }
 }
