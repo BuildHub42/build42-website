@@ -191,11 +191,12 @@ h3 {
   line-height: 1.04;
   letter-spacing: 0;
   font-weight: 700;
+  text-wrap: balance;
 }
 
 h1 {
-  max-width: 900px;
-  font-size: clamp(4rem, 12vw, 8.7rem);
+  max-width: 1080px;
+  font-size: clamp(4rem, 9vw, 7.4rem);
 }
 
 h2 {
