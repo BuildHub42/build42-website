@@ -2,6 +2,10 @@ name = "build42-website"
 compatibility_date = "2026-06-04"
 workers_dev = true
 preview_urls = true
+routes = [
+  { pattern = "build42.com/*", zone_name = "build42.com" },
+  { pattern = "www.build42.com/*", zone_name = "build42.com" }
+]
 
 [assets]
 directory = "./dist"
