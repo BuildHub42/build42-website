@@ -369,6 +369,10 @@ h3 {
   line-height: 1.65;
 }
 
+#about .about-copy {
+  padding-top: 52px;
+}
+
 .about-copy p {
   margin: 0;
 }
@@ -539,6 +543,10 @@ textarea {
     align-items: flex-start;
     flex-direction: column;
     padding: 28px 20px;
+  }
+
+  #about .about-copy {
+    padding-top: 0;
   }
 }
 
