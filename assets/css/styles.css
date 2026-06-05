@@ -350,10 +350,23 @@ h3 {
   align-items: start;
 }
 
+#about .about-layout {
+  grid-template-columns: minmax(320px, 0.82fr) minmax(0, 1.18fr);
+  gap: 64px;
+}
+
+#about h2 {
+  max-width: 760px;
+  font-size: clamp(2.4rem, 4vw, 4.05rem);
+  line-height: 1.08;
+}
+
 .about-copy {
   display: grid;
-  gap: 20px;
-  font-size: 1.06rem;
+  gap: 18px;
+  max-width: 860px;
+  font-size: 1.02rem;
+  line-height: 1.65;
 }
 
 .about-copy p {
@@ -484,6 +497,7 @@ textarea {
   .three,
   .track-grid,
   .about-layout,
+  #about .about-layout,
   .leadership,
   .contact-layout {
     grid-template-columns: 1fr;
