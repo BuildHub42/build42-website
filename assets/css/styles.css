@@ -303,11 +303,6 @@ h3 {
   border-top: 1px solid var(--line);
 }
 
-.track-card:nth-child(2) .track-label,
-.track-card:nth-child(2) .card-subtitle {
-  color: var(--purple-500);
-}
-
 .track-items div {
   display: grid;
   gap: 4px;
