@@ -1,0 +1,22 @@
+{
+  "name": "Build42",
+  "short_name": "Build42",
+  "description": "Strategic engineering and operational guidance for ventures and enterprises.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#07100b",
+  "theme_color": "#8eca8f",
+  "icons": [
+    {
+      "src": "/public/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/public/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
